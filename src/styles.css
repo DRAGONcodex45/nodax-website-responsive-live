@@ -1,0 +1,1864 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    Margin: 0;
+    padding: 0;
+    font-family: 'League spartan', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "League spartan", sans-serif;
+}
+
+#topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+
+#topnav a {
+    text-decoration: none;
+    gap: 2rem;
+
+}
+
+.menu {
+    float: right;
+    padding-top: 20px;
+}
+
+.menu li {
+    display: inline;
+    padding-right: 16px;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+
+.menu li:hover {
+    color: #108A00;
+}
+
+#logo {
+    margin: 15px 0;
+    width: 130px;
+}
+
+.login-button {
+    font-family: "inter", sans-serif;
+    margin-left: 1.5rem;
+    margin-right: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.login-button:hover {
+    cursor: pointer;
+    color: #108A00;
+}
+
+.signup-button {
+    font-family: "inter", sans-serif;
+    padding: 12px 30px 12px 30px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    background-color: #108A00;
+    color: #ffffff;
+    font-size: 1rem;
+    border-style: none;
+
+
+
+}
+
+.signup-button:hover {
+    background: #333741;
+}
+
+
+.social-links {
+    padding: 0;
+}
+
+@media screen and (min-width: 360px) {
+
+    .mylinks {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .signup-button {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .login-button {
+        margin-right: 2px;
+        padding-left: 5px;
+        background-color: #ffffff;
+        font-weight: bold;
+        font-size: 1rem;
+
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-family: "League spartan", sans-serif;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        color: #108A00;
+        margin-left: 10px;
+
+    }
+
+    .bigtext {
+        font-family: "inter", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-left: 10px;
+
+    }
+
+    .form-text {
+        font-size: 1rem;
+        margin-left: 1.25rem;
+
+    }
+
+    .bigtext-button {
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 1rem;
+        border-radius: 1rem;
+        font-size: 0.9rem;
+        background-color: #108A00;
+        color: #ffffff;
+        font-weight: 700;
+        border-style: none;
+        margin: 10px;
+    }
+
+
+    .bigtext-button:hover {
+        background-color: #333741;
+    }
+
+    .rating-text {
+        font-family: "League spartan", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 1.8rem 0 0 1.25rem;
+
+    }
+
+    .hero-rating {
+        float: right;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .fa-star {
+        color: orange;
+        border-style: none;
+    }
+
+
+    #form-card {
+        background-color: #FFF1F0;
+        margin: 2rem 0;
+        margin: 10px;
+        border: 3px solid #000;
+        border-radius: 2rem;
+
+    }
+
+    .quote {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .form-text {
+        font-size: 0.9rem;
+        margin-left: 10px;
+
+    }
+
+    .form-group {
+        margin: 20px;
+    }
+
+    .form-group input {
+        padding: 1.1rem;
+        width: 90%;
+        border-radius: 1.75rem;
+        border: 1px solid #000;
+
+    }
+
+    .form-text-2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding-left: 30px;
+    }
+
+
+    .radio-button {
+        display: flex;
+    }
+
+    .form-button {
+        padding: 12px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border-radius: 80px;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        border: 1px solid gray;
+        background-color: #108A00;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #ffffff;
+
+
+    }
+
+    .form-button:hover {
+        background-color: #333741;
+    }
+
+    #about {
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-image: url(background_1.png);
+
+    }
+
+
+    h2 {
+        font-family: "League spartan", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
+    .h2-text {
+        text-decoration: underline;
+        text-decoration-color: #108A00;
+        text-decoration-thickness: 8px;
+    }
+
+    .h2-small-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #nextlevel {
+        height: 291px;
+        width: 590px;
+        border-radius: 1.25rem;
+
+    }
+
+
+    #container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .block {
+        float: left;
+        margin: 2rem 0 0 0.7rem;
+    }
+
+    .image {
+        float: right;
+        margin: 2rem 0.7rem 0 0.7rem;
+    }
+
+    .title {
+        font-size: 2.9rem;
+        font-weight: 700;
+    }
+
+
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .started {
+        text-decoration: underline;
+        text-decoration-color: #108A00;
+    }
+
+    #service-box {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+    }
+
+    #box-card {
+        background-color: #ffffff;
+        border: 5px solid #000;
+        border-radius: 25px;
+        margin: 0 auto;
+        height: 349px;
+        width: 280px;
+        padding: 0 1.9rem 0 1.9rem;
+    }
+
+
+    .mail-image-box {
+        height: 190px;
+        width: 280px;
+        background-color: #fef08a;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding-top: 2rem;
+        text-align: center;
+
+    }
+
+    .payment-image {
+        height: 175px;
+        width: 280px;
+        background-color: rgb(189, 255, 178);
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .presentation-image {
+        height: 180px;
+        width: 280px;
+        background-color: rgb(255, 192, 179);
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    #box-card:hover {
+        background-color: #FEF9C3;
+
+    }
+
+    #box-card-2 {
+        background-color: #ffffff;
+        border: 5px solid #000;
+        border-radius: 25px;
+        margin-right: 20px;
+        height: 349px;
+        width: 280px;
+        margin: 0 auto;
+        padding: 0 1.9rem 0 1.9rem;
+    }
+
+    #box-card-2:hover {
+        background-color: #FFE4E6;
+    }
+
+
+    #box-card-3 {
+        background-color: #ffffff;
+        border: 5px solid #000;
+        border-radius: 20px;
+        height: 349px;
+        width: 280px;
+        padding: 0 1.9rem 0 1.9rem;
+        margin: 0 auto;
+
+    }
+
+    #box-card-3:hover {
+        background-color: #DCFCE7;
+    }
+
+    .box-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
+
+    }
+
+
+    #provide-image {
+        display: none;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-top: 6rem;
+        line-height: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .h4-small-description {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        line-height: 30px;
+        margin-left: 10px;
+
+    }
+
+    .list {
+        font-family: "Poppins", sans-serif;
+        line-height: 40px;
+        font-size: 1.25rem;
+        font-weight: 700px;
+        color: #292524;
+        list-style: none;
+    }
+
+
+    .recommended {
+        display: none;
+    }
+
+    .client {
+        display: none;
+    }
+
+    #all-service {
+        background-image: url(footer.jpg);
+        width: 100%;
+    }
+
+    h5 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .h5-smalltext {
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    #ourservice {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-left {
+        padding: 30px;
+    }
+
+    #icon-right {
+        padding: 30px;
+
+
+    }
+
+    iframe {
+        height: 200px;
+        width: 300px;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #fff1f0;
+        margin: 0 auto;
+
+
+    }
+
+    .iframetextwrapper {
+        color: #000;
+    }
+
+    .icon-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-top: 15px;
+        color: #ffffff;
+    }
+
+    .icon-box {
+        background-color: #FEF08A;
+        height: 70px;
+        width: 90px;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .icon-box2 {
+        background-color: #FDA4AF;
+        height: 70px;
+        width: 90px;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .icon-box3 {
+        background-color: #BBF7D0;
+        height: 70px;
+        width: 90px;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .icon-box4 {
+        background-color: #A5F3FC;
+        height: 70px;
+        width: 90px;
+        padding: 10px 0;
+        border-radius: 10px;
+
+    }
+
+    .idescription {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+
+    h6 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 2.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .h6_smalltext {
+        font-size: 0.9rem;
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+        padding: 10px;
+    }
+
+    br {
+        display: none;
+    }
+
+
+    #pricing {
+        display: flex;
+    }
+
+
+    .star_box {
+        width: 260px;
+        background-color: #108A00;
+        background-image: url(background-line.png);
+        padding: 30px 50px 30px 30px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+
+    }
+
+
+    .brand_logo {
+        padding-left: 40px;
+        padding: 0;
+        margin-right: 0;
+        border: 1px;
+    }
+
+
+
+    .container-card {
+        background-color: #108A00;
+        background-image: url(background-line.png);
+        border-radius: 100px;
+        margin-right: 10px;
+        padding: 30px;
+        line-height: 34px;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    #pricing_card {
+        height: 420px;
+        width: 250px;
+        border: 2px solid gray;
+        padding: 45px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+    }
+
+    #pricing_card:hover {
+        background-color: #FEF9C3;
+
+    }
+
+    #pricing_card3 {
+        height: 420px;
+        width: 250px;
+        border: 1px solid gray;
+        padding: 45px;
+        border-radius: 1.25rem;
+    }
+
+    #pricing_card3:hover {
+        background-color: #FFE4E6;
+
+    }
+
+    .role-overtitle {
+        font-family: "Poppins", sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .pricing-list div {
+        font-family: "Poppins", sans-serif;
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 1.25rem;
+
+
+    }
+
+    .price-tag {
+        font-size: 40px;
+        margin-top: 20px;
+
+
+    }
+
+    .pricing_button {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 15px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border-radius: 40px;
+        border: 4px solid black;
+        margin-top: 20px;
+        background-color: #ffffff;
+    }
+
+    .pricing_button:hover {
+        background-color: #108A00;
+        color: #ffffff;
+        cursor: pointer;
+
+    }
+
+    .pricing_desc {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+    }
+
+
+    #business {
+        background-image: url(footer.jpg);
+        width: 100%;
+
+    }
+
+    #information {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .footer-heading {
+        font-family: "league spartan", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 3rem;
+        text-align: center;
+        margin: 20px 0 10px 0;
+        color: #ffffff;
+        padding: 40px 0;
+    }
+
+    .h7-smalltext {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin: 5px 0;
+        color: #ffffff;
+    }
+
+    .section_button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-quote {
+        text-align: center;
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 80px;
+        border: 1px solid gray;
+        background-color: #108A00;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #ffffff;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .section_button:hover {
+        background-color: #333741;
+        cursor: pointer;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .container-one {
+        display: flex;
+    }
+
+    .container-two {
+        display: flex;
+
+    }
+
+    .info-box,
+    .info2-box,
+    .info3-box {
+        height: 50px;
+        width: 60px;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+
+    .info-box {
+        background-color: #FEF08A;
+        margin: 0 10px;
+
+    }
+
+    .info2-box {
+        background-color: #F9A8D4;
+        margin: 0 10px;
+    }
+
+    .info3-box {
+        background-color: #BBF7D0;
+        margin: 0 10px;
+
+    }
+
+    .phone {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #ffffff;
+
+    }
+
+    .email {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #ffffff;
+
+    }
+
+    .address {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #ffffff;
+
+    }
+
+    .home {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 30px;
+        margin-top: 0;
+        padding: 10px;
+
+    }
+
+    .new {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .ceo {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        border-top: 1px solid #FAFAFA;
+        bottom: 0;
+
+    }
+
+    #footer-logo {
+        width: 120px;
+        height: 40px;
+        margin: 1.25rem 0 0.8rem 0.7rem;
+    }
+
+    .fa {
+        color: orange;
+    }
+
+    .fa {
+        text-align: center;
+        /* padding: 30px 0; */
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 5px;
+        /* margin-top: 1.25rem; */
+        margin-left: 10px;
+        /* margin-bottom: 1.25rem; */
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+
+
+    }
+
+    .fa-facebook {
+        color: white;
+
+    }
+
+    .fa-twitter {
+
+        color: white;
+    }
+
+
+    .fa-linkedin {
+
+        color: white;
+    }
+
+    .fa-instagram {
+
+        color: white;
+    }
+
+    .fa-youtube {
+        color: white;
+    }
+
+    .fa-google {
+
+        color: white;
+    }
+
+    .fa:hover {
+        opacity: 0.9;
+    }
+
+
+
+
+
+
+    .copyright {
+        bottom: 0;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 10px;
+
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 576px) {
+    #hero-content {
+        margin-bottom: 1.5rem;
+    }
+
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .rating-text {
+        font-family: "League spartan", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+
+    .hero-rating {
+        float: right;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+
+
+    #form-card {
+        height: 470px;
+        width: 500px;
+        background-color: #FFF1F0;
+        border: 3px solid #000;
+        border-radius: 1.25rem;
+        margin: 0 auto;
+
+    }
+
+    .form-group input {
+        padding: 1.5rem;
+
+    }
+
+    .quote {
+        font-size: 2rem;
+        margin-left: 1.25rem;
+    }
+
+    .form-text {
+        font-size: 1rem;
+        margin-left: 1.25rem;
+
+    }
+
+    #nextlevel {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+
+    #box-card {
+        margin: 0 auto;
+        height: 349px;
+        width: 450px;
+    }
+
+
+    .mail-image-box {
+        height: 200px;
+        width: 380px;
+        margin: 0 auto;
+
+    }
+
+    .payment-image {
+        width: 200px;
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    h4 {
+
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #provide-image {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-top: 5rem;
+
+    }
+
+    br {
+        display: none;
+    }
+
+    .presentation-image {
+        height: 190px;
+        width: 380px;
+        margin: 0 auto;
+    }
+
+
+    #box-card-2 {
+        height: 349px;
+        width: 450px;
+
+    }
+
+    #box-card-2:hover {
+        background-color: #FFE4E6;
+    }
+
+
+    #box-card-3 {
+        height: 349px;
+        width: 450px;
+        padding: 0 1.9rem 0 1.9rem;
+
+
+    }
+
+
+    .box-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 0.9rem;
+
+    }
+
+    #ourservice {
+
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+
+    #youtube {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    iframe {
+        height: 270px;
+        width: 270px;
+
+    }
+
+
+    #icon-left {
+        
+    }
+
+    #icon-right {
+        
+    }
+
+    iframe {
+        height: 250px;
+        width: 440px;
+        padding: 20px;
+
+
+    }
+
+
+    #pricing_card {
+        height: 450px;
+        width: 320px;
+    }
+
+    .star_box {
+        width: 320px;
+    }
+
+    #pricing_card3 {
+        height: 450px;
+        width: 320px;
+    }
+
+    #pricing_button {
+        display: block;
+    }
+
+    .section-quote {
+
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 80px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .fa {
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 5px;
+        margin-left: 10px;
+        margin-bottom: 1.25rem;
+        border-radius: 50px;
+
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .form-text {
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-left: 1.25rem;
+
+
+    }
+
+    #form-card {
+        height: 500px;
+        width: 659px;
+        background-color: #FFF1F0;
+        border: 3px solid #000;
+        border-radius: 2.25rem;
+        margin: 0 auto;
+
+    }
+
+    .form-group input {
+        padding: 1.25rem;
+
+    }
+
+    .form-text {
+        font-size: 1rem;
+        margin-left: 1.25rem;
+        font-weight: 500;
+
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 3rem;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+
+    #nextlevel {
+        display: block;
+        height: 334px;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+
+    .block {
+        float: left;
+        margin: 2rem 0 0 8rem;
+    }
+
+    .image {
+        float: right;
+        margin: 2rem 8rem 0 0;
+    }
+
+    #service-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+    }
+
+    #box-card {
+        height: 349px;
+        width: 280px;
+    }
+
+
+    .mail-image-box {
+        height: 190px;
+        width: 280px;
+
+    }
+
+    .payment-image {
+        height: 175px;
+        width: 280px;
+    }
+
+    .presentation-image {
+        height: 180px;
+        width: 280px;
+    }
+
+    #box-card-2 {
+        height: 349px;
+        width: 280px;
+
+    }
+
+    #box-card-2:hover {
+        background-color: #FFE4E6;
+    }
+
+
+    #box-card-3 {
+        height: 349px;
+        width: 280px;
+    }
+
+    #box-card-3:hover {
+        background-color: #DCFCE7;
+    }
+
+    .box-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
+
+    }
+
+    #provide {
+        display: flex;
+        margin: 6rem 0;
+
+    }
+
+    #provide-image {
+        display: block;
+        width: 450px;
+    }
+
+    br {
+        display: block;
+    }
+
+
+    h4 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: left;
+    }
+
+    .h4-small-description {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        line-height: 30px;
+        margin-left: 10px;
+
+    }
+
+    .list {
+        font-family: "Poppins", sans-serif;
+        line-height: 40px;
+        font-size: 1.25rem;
+        font-weight: 700px;
+        color: #292524;
+        list-style: none;
+    }
+
+    .recommended {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .client {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #client-6 {
+        display: none;
+    }
+
+
+    #icon-right {
+        display: flex;
+        flex-direction: row
+    }
+
+    #icon-left {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    iframe {
+        height: 250px;
+        width: 540px;
+        border: 2px solid white;
+        padding: 30px;
+        margin: 0 auto;
+
+
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    #pricing_card {
+        height: 450px;
+        width: 300px;
+    }
+
+    .star_box {
+        width: 290px;
+        height: 400px;
+    }
+
+    #pricing_card3 {
+        height: 450px;
+        width: 300px;
+    }
+
+    #pricing_button {
+        display: block;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+
+    .info-box,
+    .info2-box,
+    .info3-box {
+        height: 60px;
+        width: 70px;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+
+    .fa {
+        float: right;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 995px) {
+    #hero-section {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 1000px;
+
+    }
+
+    .mylinks {
+        display: inline;
+        float: left
+    }
+
+    .nav-button {
+        display: flex;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    #hero-content {
+        width: 50%
+    }
+
+    .bigtext {
+        font-family: "inter", sans-serif;
+        font-size: 1.25rem;
+    }
+
+    #form {
+        width: 50%;
+        margin-top: 3rem;
+    }
+
+    #form-card {
+        height: 470px;
+        width: 400px;
+        background-color: #FFF1F0;
+        border: 3px solid #000;
+        border-radius: 2.25rem;
+        margin: 0 auto;
+
+    }
+
+    .bigtext-button {
+        padding: 15px 30px 15px 30px;
+        border-radius: 1.5rem;
+
+    }
+
+    .rating-text {
+        font-size: 1.5rem;
+
+    }
+
+    .hero-rating {
+        float: right;
+        font-size: 1.5rem;
+    }
+
+
+    #nextlevel {
+        height: 442px;
+        width: 896px;
+        margin: 0 auto;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 7.5rem;
+        margin-top: 1.25rem;
+    }
+
+
+    .block {
+        margin: 0 0.7rem;
+    }
+
+    .image {
+        margin: 0;
+        padding: 1rem 0
+    }
+
+    #service {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #service-box {
+        max-width: 1000px;
+        margin: auto;
+        gap: 0.7rem;
+    }
+
+    #box-card {
+        height: 360px;
+        width: 250px;
+    }
+
+
+    .mail-image-box {
+        height: 190px;
+        width: 230px;
+
+    }
+
+    .payment-image {
+        height: 175px;
+        width: 220px;
+    }
+
+    .presentation-image {
+        height: 180px;
+        width: 220px;
+    }
+
+    #box-card-2 {
+        height: 360px;
+        width: 250px;
+
+    }
+
+
+
+    #box-card-3 {
+        height: 360px;
+        width: 250px;
+    }
+
+    .box-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .desc {
+        text-align: center;
+
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+
+
+    #provide {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+
+
+
+    }
+
+    #provide-image {
+        margin-top: 5rem;
+        width: 600px;
+        height: 472px;
+
+
+    }
+
+    br {
+        display: block;
+    }
+
+    .h4-small-description {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        margin-top: 5rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+
+
+    .list {
+        font-family: "Poppins", sans-serif;
+        line-height: 40px;
+        font-size: 1.25rem;
+        font-weight: 700px;
+        color: #292524;
+        list-style: none;
+    }
+
+    #ourservice {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+    }
+
+    #icon-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icon-left {
+        display: flex;
+        flex-direction: column
+    }
+
+
+    iframe {
+        height: 350px;
+        width: 310px;
+        padding: 20px;
+
+
+    }
+
+    #client {
+        padding: 2rem;
+    }
+
+    #client-6 {
+        display: block;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    h6 {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .h6_smalltext {
+        font-size: 1rem;
+    }
+
+    #pricing_card {
+        height: 400px;
+        width: 230px;
+        margin-right: 10px;
+    }
+
+    .star_box {
+        width: 220px;
+        height: 430px;
+        margin-right: 10px;
+    }
+
+    #pricing_card3 {
+        height: 400px;
+        width: 230px;
+    }
+
+    #pricing_button {
+        display: block;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center;
+        align-items: center; */
+        gap: 0;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    #hero-section {
+        margin: 0 auto;
+        max-width: 1200px;
+
+    }
+
+    .mylinks {
+        display: inline;
+
+    }
+
+    #service {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #service-box {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
+
+
+    }
+
+    h1 {
+        font-family: "League spartan", sans-serif;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #108A00;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+
+
+    #box-card {
+        height: 349px;
+        width: 349px;
+        margin-right: 20px;
+    }
+
+    .mail-image-box {
+        height: 190px;
+        width: 280px;
+
+    }
+
+    .payment-image {
+        height: 175px;
+        width: 280px;
+    }
+
+    .presentation-image {
+        height: 180px;
+        width: 280px;
+    }
+
+    #box-card-2 {
+        height: 349px;
+        width: 349px;
+        margin-right: 20px;
+
+    }
+
+    #box-card-3 {
+        height: 349px;
+        width: 349px;
+
+    }
+
+    iframe {
+        height: 380px;
+        width: 400px;
+        padding: 30px;
+
+
+    }
+
+    #pricing_container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    h6 {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .h6_smalltext {
+        font-size: 1rem;
+    }
+
+    #pricing_card {
+        height: 400px;
+        width: 267px;
+        margin-right: 20px;
+    }
+
+    .star_box {
+        width: 267px;
+        height: 420px;
+        margin-right: 20px;
+    }
+
+    #pricing_card3 {
+        height: 400px;
+        width: 267px;
+    }
+
+    #pricing_button {
+        display: block;
+    }
+
+#ourservice {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    gap: 4rem;
+}
+
+.info-box,
+    .info2-box,
+    .info3-box {
+        height: 80px;
+        width: 90px;
+       
+}
+
+#footer-logo {
+    width: 180px;
+    height: 57px;
+}
+
+}
